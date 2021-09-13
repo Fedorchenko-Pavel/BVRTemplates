@@ -20,7 +20,7 @@ For installing you should run the following commands in your terminal:
 
 > mkdir -p ~/Library/Developer/Xcode/Templates/File\ Templates <br />
 > cd ~/Library/Developer/Xcode/Templates/File\ Templates <br />
-> git clone https://github.com/VRGsoftUA/VRGSoftSwiftTemplates.git
+> git clone https://github.com/SavytskyiDmytryi/TestTemplate.git
 
 ## Usage
 
