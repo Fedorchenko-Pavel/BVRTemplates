@@ -6,7 +6,7 @@
 * UIView with xib Template
 * Requst Template
 
-## Table of Contents
+## Оглавление
 
 * [Установка](#установка)
 * [Использование](#использование)
