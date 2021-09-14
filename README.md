@@ -18,7 +18,7 @@
 
 > mkdir -p ~/Library/Developer/Xcode/Templates/File\ Templates <br />
 > cd ~/Library/Developer/Xcode/Templates/File\ Templates <br />
-> git clone https://github.com/SavytskyiDmytryi/TestTemplate.git
+> git clone https://github.com/SavytskyiDmytryi/BVRTemplates.git
 
 ## Использование
 
