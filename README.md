@@ -16,8 +16,8 @@
 
 Для установки вы должны запустить в своем терминале следующие команды:
 
-> cd /Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates 
-> sudo git clone https://github.com/SavytskyiDmytryi/BVRTemplates.git
+> cd /Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates <br />
+> sudo git clone https://github.com/SavytskyiDmytryi/BVRTemplates.git <br />
 
 ## Использование
 
