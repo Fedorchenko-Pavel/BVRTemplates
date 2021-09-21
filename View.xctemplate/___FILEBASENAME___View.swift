@@ -11,9 +11,9 @@ import RxSwift
 
 final class ___VARIABLE_viewName:identifier___View: XibView {
     
-    // MARK: - IBOutlets
-    // MARK: - Properties
-    // MARK: - Private properties
-    // MARK: - Internal methods
-    // MARK: - Private methods
+    // MARK: - IBOutlets -
+    // MARK: - Properties -
+    // MARK: - Private properties -
+    // MARK: - Internal methods -
+    // MARK: - Private methods -
 }
