@@ -11,28 +11,28 @@ import RxCocoa
 
 protocol P___VARIABLE_moduleName:identifier___VM {
     
-    // MARK: - Injections
+    // MARK: - Injections -
     var disposeBag: DisposeBag { get }
     var router: AppRouter! { get set }
     var repository: P___VARIABLE_moduleName:identifier___Repository! { get set }
-    // MARK: - Observers
-    // MARK: - Properties
-    // MARK: - Injection did finish
+    // MARK: - Observers -
+    // MARK: - Properties -
+    // MARK: - Injection did finish -
     func injectionDidFinish()
-    // MARK: - View Flow
+    // MARK: - View Flow -
     func viewDidLoad()
     func viewWillAppear()
 }
 
 final class ___VARIABLE_moduleName:identifier___VM: P___VARIABLE_moduleName:identifier___VM {
     
-    // MARK: - Injections
+    // MARK: - Injections -
     var disposeBag = DisposeBag()
     var router: AppRouter!
     var repository: P___VARIABLE_moduleName:identifier___Repository!
     
-    // MARK: - Observers
-    // MARK: - Properties
+    // MARK: - Observers -
+    // MARK: - Properties -
     private let scheduler: PScheduler
     private let networkManager: PNetworkManager
     
@@ -41,18 +41,18 @@ final class ___VARIABLE_moduleName:identifier___VM: P___VARIABLE_moduleName:iden
         self.networkManager = networkManager
     }
     
-    // MARK: - Injection did finish
+    // MARK: - Injection did finish -
     func injectionDidFinish() {
         subscribeActions()
         subscribeRepository()
     }
     
-    // MARK: - View Flow
+    // MARK: - View Flow -
     func viewDidLoad() {}
     
     func viewWillAppear() {}
     
-    // MARK: Private methods
+    // MARK: Private methods -
     private func subscribeActions() {}
     
     private func subscribeRepository() {}
