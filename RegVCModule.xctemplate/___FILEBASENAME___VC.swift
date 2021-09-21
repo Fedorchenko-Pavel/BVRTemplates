@@ -10,13 +10,13 @@ import UIKit
 
 final class ___VARIABLE_moduleName:identifier___VC: ViewController<___VARIABLE_moduleName:identifier___VM> {
     
-    // MARK: - IBOutlets
+    // MARK: - IBOutlets -
     
-    // MARK: - Properties
+    // MARK: - Properties -
     
-    // MARK: - Private properties
+    // MARK: - Private properties -
     
-    // MARK: - Lifecycle
+    // MARK: - Lifecycle -
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -25,5 +25,5 @@ final class ___VARIABLE_moduleName:identifier___VC: ViewController<___VARIABLE_m
         super.viewWillAppear(animated)
     }
     
-    // MARK: Private methods
+    // MARK: Private methods -
 }
