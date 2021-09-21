@@ -10,14 +10,14 @@ import UIKit
 
 final class ___VARIABLE_moduleName:identifier___VC: BaseViewController {
     
-    // MARK: - IBOutlets
+    // MARK: - IBOutlets -
     
-    // MARK: - Properties
+    // MARK: - Properties -
     var viewModel: P___VARIABLE_moduleName:identifier___VM!
     
-    // MARK: - Private properties
+    // MARK: - Private properties -
     
-    // MARK: - Lifecycle
+    // MARK: - Lifecycle -
     override func viewDidLoad() {
         super.viewDidLoad()
         viewModel.viewDidLoad()
@@ -28,5 +28,5 @@ final class ___VARIABLE_moduleName:identifier___VC: BaseViewController {
         viewModel.viewWillAppear()
     }
     
-    // MARK: - Private methods
+    // MARK: - Private methods -
 }
