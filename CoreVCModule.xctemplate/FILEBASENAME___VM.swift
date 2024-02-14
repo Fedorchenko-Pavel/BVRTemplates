@@ -24,7 +24,7 @@ protocol P___VARIABLE_moduleName:identifier___VM {
     func viewWillAppear()
 }
 
-final class ___VARIABLE_moduleName:identifier___VM: P___VARIABLE_moduleName:identifier___VM {
+final class VARIABLE_moduleName:identifier___VM: P___VARIABLE_moduleName:identifier___VM {
     
     // MARK: - Injections -
     var disposeBag = DisposeBag()

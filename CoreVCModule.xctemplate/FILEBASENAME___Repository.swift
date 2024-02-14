@@ -12,7 +12,7 @@ import RxCocoa
 
 protocol P___VARIABLE_moduleName:identifier___Repository {}
 
-final class ___VARIABLE_moduleName:identifier___Repository: P___VARIABLE_moduleName:identifier___Repository {
+final class VARIABLE_moduleName:identifier___Repository: P___VARIABLE_moduleName:identifier___Repository {
     
     private let scheduler: PScheduler
     private let networkManager: PNetworkManager

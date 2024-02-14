@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>MainTemplateFile</key>
-	<string>___FILEBASENAME___</string>
+	<string>FILEBASENAME___</string>
 	<key>SortOrder</key>
 	<integer>6</integer>
 	<key>Platforms</key>
@@ -38,7 +38,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_viewName:identifier___</string>
+			<string>VARIABLE_viewName:identifier___</string>
 			<key>Identifier</key>
 			<string>productName</string>
 			<key>Type</key>

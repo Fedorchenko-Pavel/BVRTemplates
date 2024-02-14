@@ -9,7 +9,7 @@
 import UIKit
 import RxSwift
 
-final class ___VARIABLE_viewName:identifier___View: XibView {
+final class VARIABLE_viewName:identifier___View: XibView {
     
     // MARK: - IBOutlets -
     // MARK: - Properties -

@@ -8,12 +8,12 @@
 
 import Foundation
 
-enum ___VARIABLE_moduleName:identifier___Result {
+enum VARIABLE_moduleName:identifier___Result {
     case success(SomeModel)
     case errorMessage(String?)
 }
 
-class ___VARIABLE_moduleName:identifier___Request: PRequest {
+class VARIABLE_moduleName:identifier___Request: PRequest {
     var path: URLPath = .someCase // FIXME: Add your URLPath to enum and init it here.
     var response: ((NetworkResult) -> Void)?
     var userIgnoringError: Bool?
@@ -21,7 +21,7 @@ class ___VARIABLE_moduleName:identifier___Request: PRequest {
     var needPrintLogs: Bool?
     var body: HTTPBody?
     var secureData: SecureRequestData?
-    init(someParam: String, resultCallback: @escaping ((___VARIABLE_moduleName:identifier___Result) -> Void)) { // FIXME: Remove or change "someParam" to yours input params.
+    init(someParam: String, resultCallback: @escaping ((VARIABLE_moduleName:identifier___Result) -> Void)) { // FIXME: Remove or change "someParam" to yours input params.
         body = [
             "someParam": someParam,
         ]

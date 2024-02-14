@@ -8,6 +8,6 @@
 
 import Foundation
 
-final class ___VARIABLE_moduleName:identifier___VM: PVCModel {
+final class VARIABLE_moduleName:identifier___VM: PVCModel {
     
 }

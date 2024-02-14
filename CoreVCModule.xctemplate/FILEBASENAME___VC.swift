@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class ___VARIABLE_moduleName:identifier___VC: BaseViewController {
+final class VARIABLE_moduleName:identifier___VC: BaseViewController {
     
     // MARK: - IBOutlets -
     

@@ -9,11 +9,11 @@
 import Swinject
 import SwinjectAutoregistration
 
-final class ___VARIABLE_moduleName:identifier___Assembly: Assembly {
+final class VARIABLE_moduleName:identifier___Assembly: Assembly {
     
     func assemble(container: Container) {
-        container.autoregister(P___VARIABLE_moduleName:identifier___VM.self, initializer: ___VARIABLE_moduleName:identifier___VM.init)
-        container.autoregister(P___VARIABLE_moduleName:identifier___Repository.self, initializer: ___VARIABLE_moduleName:identifier___Repository.init).inObjectScope(.container)
+        container.autoregister(P___VARIABLE_moduleName:identifier___VM.self, initializer: VARIABLE_moduleName:identifier___VM.init)
+        container.autoregister(P___VARIABLE_moduleName:identifier___Repository.self, initializer: VARIABLE_moduleName:identifier___Repository.init).inObjectScope(.container)
         
         container.xibInitCompleted(___VARIABLE_moduleName:identifier___VC.self) { (resolver, controller) in
             var viewModel = resolver.resolve(P___VARIABLE_moduleName:identifier___VM.self)
